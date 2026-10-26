@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.axworks1/one-design",
+  "title": "One Design",
+  "description": "Image, brand, privacy and PDF tools from one.design, run on your own computer. Nothing uploaded.",
+  "websiteUrl": "https://one.design/mcp",
+  "repository": {
+    "url": "https://github.com/axworks1/one-design-mcp",
+    "source": "github"
+  },
+  "version": "0.2.4",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "one-design-mcp",
+      "version": "0.2.4",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
