@@ -5,8 +5,8 @@ Everything runs on your own computer: your files are read and saved locally and 
 
 Setup guide, examples and questions: **https://one.design/mcp**
 
-The few tools that run an AI model in the browser (Cutout, Blur Faces, Magic Eraser, Brand
-Guidelines) open on one.design instead, where they also run on your device.
+The few tools that run an AI model in the browser (Cutout, Blur Faces) open on
+one.design instead, where they also run on your device.
 
 ## Tools
 
@@ -23,7 +23,7 @@ Guidelines) open on one.design instead, where they also run on your device.
 | `multi_crop` | Pro | Several crops and sizes from each image at once |
 | `grid_slide` | Pro | Profile grids in posting order, and carousel slides |
 | `make_web_image_set` | Pro | Responsive widths and formats plus the srcset snippet |
-| `make_listing_photos` | Pro | Product photos framed for Amazon, Etsy, eBay, Shopify… |
+| `make_listing_photos` | Pro | Product photos by size: square (Amazon, eBay, Shopify, Facebook Marketplace…), portrait (Instagram Shop, Vinted), landscape (Etsy) |
 | `make_campaign_kit` | Pro | One creative as a matched set of social, web and ad sizes |
 
 **Privacy**
@@ -63,12 +63,12 @@ Guidelines) open on one.design instead, where they also run on your device.
 | Tool | What it does |
 |---|---|
 | `plan_and_pricing` | Your plan, what Free and Pro include, and the price |
-| `buy_pro` | Opens Stripe checkout for Pro (Lifetime) in your browser |
+| `buy_pro` | Opens Stripe checkout for Pro (monthly or Lifetime) in your browser |
 | `sign_in`, `verify_sign_in`, `sign_out` | Sign in with an emailed code to unlock Pro here |
 | `manage_billing` | Receipts, card and invoices |
 | `brand_library` | Your synced Brand Libraries: colours, fonts, logos (Pro) |
 | `list_tools` | Every one.design tool, its plan and how to run it |
-| `open_in_one_design` | Opens a tool on the site (for Cutout, Blur Faces, Magic Eraser, Brand Guidelines) |
+| `open_in_one_design` | Opens a tool on the site (for Cutout and Blur Faces) |
 
 ## Prompts (ready-made jobs)
 
@@ -85,7 +85,7 @@ marketplace and print sizes), `one-design://tools` (the full catalogue), `one-de
 - **Free**: the Free tools, 5 files per batch, 1 QR code at a time, a small credit on Stat Shot, no
   Brand Libraries.
 - **Pro**: every tool, batches of 50, 50 QR codes at once, no credit, Brand Libraries.
-  Lifetime £29.99 once (launch price, was £79.99).
+  Pro £8.99 a month, or Lifetime £49.99 once (was £129.99).
 
 Pro is bought on Stripe (`buy_pro`, or one.design/pricing) and unlocks here when you sign in with
 the same email (`sign_in`). The session is kept in `~/.config/one-design/mcp-account.json`.

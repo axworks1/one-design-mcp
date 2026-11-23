@@ -8,13 +8,13 @@
     "url": "https://github.com/axworks1/one-design-mcp",
     "source": "github"
   },
-  "version": "0.2.4",
+  "version": "0.3.1",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "one-design-mcp",
-      "version": "0.2.4",
+      "version": "0.3.1",
       "transport": {
         "type": "stdio"
       }
